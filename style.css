@@ -16,6 +16,10 @@ h1{
     width: 50%;
     padding-left: 5%;
 }
+.half-width-ex{
+    width: 40%;
+    padding-left: 0px;
+}
 .half-width img{
     width: 80%;
 }
@@ -52,12 +56,18 @@ h1{
     border-image: linear-gradient( blue, cyan);
     border-image-slice: 1;
     border-left: 7px solid;
+    padding: 50px;
+
 }
 #full-stact-experience{
     border-image: linear-gradient( purple, tomato);
     border-image-slice: 1;
     border-left: 7px solid;
+    padding: 50px;
 }
 footer p{
+    text-align: center;
+}
+.align-center{
     text-align: center;
 }
